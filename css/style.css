@@ -1,0 +1,148 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.first {
+  max-width: 1044px;
+  font-size: 0.5em;
+}
+
+.first .design {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 900px;
+  height: 200px;
+  text-align: center;
+  gap: 80px;
+  margin-left: 300px;
+}
+
+.first .div1 {
+  float: inline-start;
+}
+
+.first .div2 {
+  float: inline-end;
+}
+
+.first .div3 {
+  width: 450px;
+  height: 200px;
+  margin-left: 500px;
+  margin-top: 50px;
+  /* margin-bottom: 70px; */
+}
+
+.first h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 26.82px;
+  letter-spacing: 0.1854em;
+  float: left;
+  margin-top: 20px;
+}
+
+.first p {
+  font-family: "Open sans", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 19.07px;
+  text-align: justified;
+  float: left;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.first div img {
+  float: left;
+}
+
+.lines {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.skill {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 5px;
+  padding: 25px;
+  text-align: center;
+}
+
+.skill {
+  border: 8px solid black;
+  width: 300px;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.second {
+  margin-top: 60px;
+  max-width: 1077px;
+  min-height: 95vh;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.second .use {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+h5 {
+  font-family: "Montserrat", Open sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+  letter-spacing: 0.1854em;
+  text-align: left;
+}
+
+.second .use p {
+  font-family: "Montserrat", Open sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
+  letter-spacing: 0.1354em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .first {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .first .design {
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .first .div3 {
+    display: block;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .first p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+}
